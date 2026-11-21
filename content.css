@@ -1,0 +1,18 @@
+html.no-shorts ytd-rich-shelf-renderer[is-shorts],
+html.no-shorts ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+html.no-shorts ytd-reel-shelf-renderer,
+
+html.no-shorts ytd-video-renderer:has(a[href^="/shorts/"]),
+html.no-shorts ytd-grid-video-renderer:has(a[href^="/shorts/"]),
+html.no-shorts ytd-rich-item-renderer:has(a[href^="/shorts/"]),
+html.no-shorts ytd-compact-video-renderer:has(a[href^="/shorts/"]),
+html.no-shorts yt-lockup-view-model:has(a[href^="/shorts/"]),
+
+html.no-shorts ytd-guide-entry-renderer:has(a[title="Shorts"]),
+html.no-shorts ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+
+html.no-shorts yt-tab-shape[tab-title="Shorts"],
+html.no-shorts tp-yt-paper-tab:has(a[href$="/shorts"]) 
+{
+  display: none !important;
+}
